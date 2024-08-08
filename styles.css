@@ -2,12 +2,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to right, rgb(10, 26, 68), rgb(10, 26, 68)); /* Custom gradient */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: #f0f0f0;
 }
 
 header {
-    background-image: linear-gradient(to right, rgb(10, 26, 68), rgb(10, 26, 68)); /* Matching gradient for header */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -64,7 +64,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: rgb(10, 26, 68); /* Solid color for footer */
+    background: #0f2027;
     color: #00d4ff;
     position: fixed;
     width: 100%;
