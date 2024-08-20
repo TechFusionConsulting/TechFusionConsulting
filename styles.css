@@ -2,69 +2,76 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background-image: linear-gradient(to right, rgb(10, 26, 68), rgb(10, 26, 68)); /* Custom gradient */
     color: #f0f0f0;
 }
 
 header {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background-image: linear-gradient(to right, rgb(10, 26, 68), rgb(10, 26, 68)); /* Matching gradient for header */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-    header h1 {
-        margin: 0;
-        font-size: 2.5rem;
-        letter-spacing: 2px;
-    }
+.main-logo {
+    max-width: 200px; /* Adjust this value as needed */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
 
 nav ul {
     list-style: none;
     padding: 0;
 }
 
-    nav ul li {
-        display: inline;
-        margin: 0 1rem;
-    }
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
 
-        nav ul li a {
-            color: #00d4ff;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
+nav ul li a {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
 
-            nav ul li a:hover {
-                color: #00a6d6;
-            }
+nav ul li a:hover {
+    color: #00a6d6;
+}
 
 main {
     padding: 2rem;
     background: rgba(255, 255, 255, 0.1);
-    margin: 2rem auto;
-    max-width: 800px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
+    width: 100%;  /* Full width */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
-    main h2 {
-        text-align: center;
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
+main h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
-    main p, main ul {
-        font-size: 1.1rem;
-        line-height: 1.6;
-    }
+main p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+}
 
 footer {
     text-align: center;
     padding: 1rem 0;
-    background: #0f2027;
+    background: rgb(10, 26, 68); /* Solid color for footer */
     color: #00d4ff;
     position: fixed;
     width: 100%;
@@ -72,14 +79,14 @@ footer {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
 
-    footer p {
-        margin: 0.5rem 0;
-    }
+footer p {
+    margin: 0.5rem 0;
+}
 
 a {
     color: #00d4ff;
 }
 
-    a:hover {
-        color: #00a6d6;
-    }
+a:hover {
+    color: #00a6d6;
+}
