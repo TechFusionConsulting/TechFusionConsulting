@@ -15,7 +15,13 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.main-logo {
+.main-logo {    
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.logo {
     max-width: 200px;
     height: auto;
     margin-bottom: 1rem;
@@ -107,7 +113,7 @@ a:hover {
     }
 
     .main-logo {
-        max-width: 150px;
+        max-width: 350px;
     }
 
     main {
@@ -133,7 +139,7 @@ a:hover {
     }
 
     .main-logo {
-        max-width: 120px;
+        max-width: 240px;
     }
 
     main {
